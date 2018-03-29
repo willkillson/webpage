@@ -1,0 +1,17 @@
+C:\Users\willk\Source\Repos\mywebpage\mywebpage\bin\Debug\ReverseMap\resources.pri
+C:\Users\willk\Source\Repos\mywebpage\mywebpage\bin\Debug\AppxManifest.xml
+C:\Users\willk\Source\Repos\mywebpage\mywebpage\bin\Debug\mywebpage.build.appxrecipe
+C:\Users\willk\Source\Repos\mywebpage\mywebpage\bld\Debug\mywebpage.jsproj.CoreCompileInputs.cache
+C:\Users\willk\Source\Repos\mywebpage\mywebpage\bld\Debug\ResourceHandlingTask.state
+C:\Users\willk\Source\Repos\mywebpage\mywebpage\bld\Debug\priconfig.xml
+C:\Users\willk\Source\Repos\mywebpage\mywebpage\bld\Debug\priconfig.xml.intermediate
+C:\Users\willk\Source\Repos\mywebpage\mywebpage\bld\Debug\layout.resfiles
+C:\Users\willk\Source\Repos\mywebpage\mywebpage\bld\Debug\layout.resfiles.intermediate
+C:\Users\willk\Source\Repos\mywebpage\mywebpage\bld\Debug\resources.resfiles
+C:\Users\willk\Source\Repos\mywebpage\mywebpage\bld\Debug\resources.resfiles.intermediate
+C:\Users\willk\Source\Repos\mywebpage\mywebpage\bld\Debug\pri.resfiles
+C:\Users\willk\Source\Repos\mywebpage\mywebpage\bld\Debug\pri.resfiles.intermediate
+C:\Users\willk\Source\Repos\mywebpage\mywebpage\bld\Debug\qualifiers.txt
+C:\Users\willk\Source\Repos\mywebpage\mywebpage\bld\Debug\qualifiers.txt.intermediate
+C:\Users\willk\Source\Repos\mywebpage\mywebpage\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\willk\Source\Repos\mywebpage\mywebpage\bld\Debug\ProjectArchitectures.txt

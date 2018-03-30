@@ -62,7 +62,24 @@ var c = canvas.getContext('2d');
 //    c.stroke();
 //}
 
+var mouse = {
+    x: undefined, y: undefined
+}
+window.addEventListener('mousemove', function (event) {
+    mouse.x = event.x;
+    mouse.y = event.y;
+    //console.log(mouse.x + " " + mouse.y);
+});
 
+
+var distance = function (x1, y1, x2, y2) {
+
+    let dx = x2 - x1;
+    let dy = y2 - y1;
+    dx = dx * dx;
+    dy = dy * dy;
+    return Math.sqrt(dx + dy);
+}
 
 //Circle constructor
 function Circle(x, y, dx, dy, radius, r, g, b) {
@@ -74,18 +91,33 @@ function Circle(x, y, dx, dy, radius, r, g, b) {
     this.g = g;
     this.b = b;
     this.a = 1;
+    this.ograd = radius;
     this.radius = radius;
     this.draw = function () {
-
-        console.log("Drawing Circle");
 
         c.beginPath();
 
         c.arc(this.x, this.y, this.radius, 0, 2 * Math.PI, false);
         c.strokeStyle = `rgba(${this.r},${this.g},${this.b},1)`;
+        c.fill();
         c.stroke();
     }
     this.update = function () {
+        //resize code
+
+        if (distance(this.x, this.y, mouse.x, mouse.y) < this.radius) {
+            this.radius = this.radius + 5;
+        }
+        else if (this.ograd < this.radius) {
+            this.radius = this.radius - 30;
+        }
+
+
+        if ((this.radius < 0)||(this.radius >1000)) {//reseting big ass bounds
+            this.radius = this.ograd;
+        }
+        //resize code
+
         this.x = this.x + this.dx;
         this.y = this.y + this.dy;
 
@@ -102,14 +134,20 @@ function Circle(x, y, dx, dy, radius, r, g, b) {
         else if (this.y - this.radius < 0) {
             this.dy = -this.dy;
         }
+
+
+
+
+
+
+
     }
 
 }
 
 //array of circles
 var circles = [];
-
-for (var i = 0; i < 1500; i++) {
+for (var i = 0; i < 100; i++) {
 
     let radius = 60 + 45*Math.random();
 

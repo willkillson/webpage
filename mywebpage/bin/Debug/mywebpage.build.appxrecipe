@@ -10,58 +10,58 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>12814d7d-4fdd-4762-85aa-09a6eac1c134</PackageIdentityName>
     <PackageIdentityPublisher>CN=willk</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\willk\Source\Repos\mywebpage\mywebpage\bld\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\willk\Source\Repos\webpage\mywebpage\bld\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath></WindowsSdkPath>
-    <LayoutDir>C:\Users\willk\Source\Repos\mywebpage\mywebpage\bin\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\willk\Source\Repos\webpage\mywebpage\bin\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\willk\Source\Repos\mywebpage\mywebpage\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\willk\Source\Repos\webpage\mywebpage\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\willk\Source\Repos\mywebpage\mywebpage\index.html">
+    <AppxPackagedFile Include="C:\Users\willk\Source\Repos\webpage\mywebpage\index.html">
       <PackagePath>index.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\willk\Source\Repos\mywebpage\mywebpage\images\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\willk\Source\Repos\webpage\mywebpage\images\LockScreenLogo.scale-200.png">
       <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\willk\Source\Repos\mywebpage\mywebpage\images\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\willk\Source\Repos\webpage\mywebpage\images\SplashScreen.scale-200.png">
       <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\willk\Source\Repos\mywebpage\mywebpage\images\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\willk\Source\Repos\webpage\mywebpage\images\Square150x150Logo.scale-200.png">
       <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\willk\Source\Repos\mywebpage\mywebpage\images\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\willk\Source\Repos\webpage\mywebpage\images\Square44x44Logo.scale-200.png">
       <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\willk\Source\Repos\mywebpage\mywebpage\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\willk\Source\Repos\webpage\mywebpage\images\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\willk\Source\Repos\mywebpage\mywebpage\images\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\willk\Source\Repos\webpage\mywebpage\images\StoreLogo.png">
       <PackagePath>images\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\willk\Source\Repos\mywebpage\mywebpage\images\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\willk\Source\Repos\webpage\mywebpage\images\Wide310x150Logo.scale-200.png">
       <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\willk\Source\Repos\mywebpage\mywebpage\js\main.js">
+    <AppxPackagedFile Include="C:\Users\willk\Source\Repos\webpage\mywebpage\js\main.js">
       <PackagePath>js\main.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\willk\Source\Repos\mywebpage\mywebpage\css\default.css">
+    <AppxPackagedFile Include="C:\Users\willk\Source\Repos\webpage\mywebpage\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\willk\Source\Repos\mywebpage\mywebpage\bin\Debug\ReverseMap\resources.pri">
+    <AppxPackagedFile Include="C:\Users\willk\Source\Repos\webpage\mywebpage\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>

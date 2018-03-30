@@ -1,1 +1,1 @@
-C:\Users\willk\Source\Repos\mywebpage\mywebpage\mywebpage.jsproj;neutral
+C:\Users\willk\Source\Repos\webpage\mywebpage\mywebpage.jsproj;neutral

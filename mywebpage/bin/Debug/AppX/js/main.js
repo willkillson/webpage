@@ -147,7 +147,7 @@ function Circle(x, y, dx, dy, radius, r, g, b) {
 
 //array of circles
 var circles = [];
-for (var i = 0; i < 100; i++) {
+for (var i = 0; i < 600; i++) {
 
     let radius = 60 + 45*Math.random();
 

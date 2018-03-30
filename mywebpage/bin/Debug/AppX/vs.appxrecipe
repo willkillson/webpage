@@ -76,7 +76,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\willk\Source\Repos\webpage\mywebpage\js\main.js">
       <PackagePath>js\main.js</PackagePath>
-      <Modified>2018-03-30T03:02:27.678</Modified>
+      <Modified>2018-03-30T07:26:28.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\willk\Source\Repos\webpage\mywebpage\css\default.css">
       <PackagePath>css\default.css</PackagePath>

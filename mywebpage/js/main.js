@@ -105,10 +105,10 @@ function Circle(x, y, dx, dy, radius, r, g, b) {
     this.update = function () {
         //resize code
 
-        if (distance(this.x, this.y, mouse.x, mouse.y) < this.radius) {
+        if (distance(this.x, this.y, mouse.x, mouse.y) < this.radius + 40) {
             this.radius = this.radius + 5;
         }
-        else if (this.ograd < this.radius) {
+        else if (this.ograd < this.radius + 40) {
             this.radius = this.radius - 30;
         }
 

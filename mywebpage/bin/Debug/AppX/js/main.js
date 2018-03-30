@@ -84,13 +84,13 @@ function Circle(x, y, dx, dy, radius, r, g, b) {
         c.arc(this.x, this.y, this.radius, 0, 2 * Math.PI, false);
         c.strokeStyle = `rgba(${this.r},${this.g},${this.b},1)`;
         c.stroke();
-    };
+    }
     this.update = function () {
         this.x = this.x + this.dx;
         this.y = this.y + this.dy;
 
         if (this.x >= canvas.width - this.radius) {
-            this.dx = -dx;
+            this.dx = -this.dx;
         }
         else if (this.x - this.radius < 0) {
             this.dx = -this.dx;
@@ -111,24 +111,17 @@ var circles = [];
 
 for (var i = 0; i < 1000; i++) {
 
-    let x = innerWidth * Math.random();
-    let y = innerHeight * Math.random();
-    let dx = 10 * (Math.random() - 0.5);
-    let dy = 10 * (Math.random() - 0.5);
+    let radius = 5;
+    let x = innerWidth / 2;//radius+innerWidth * Math.random();
+    let y = innerHeight / 2;//radius+innerHeight * Math.random();
+    let dx = 4 * (Math.random() - 0.5);
+    let dy = 4 * (Math.random() - 0.5);
     let r = Math.floor(256 * Math.random());
     let g = Math.floor(256 * Math.random());
     let b = Math.floor(256 * Math.random());
 
-    if (x + 30 >= innerWidth) {
-        x = innerWidth - 36;
-    }
-    else if (x - 30 <= 0) {
-        x = 30;
-    }
-    if (y + 30 >= innerHeight) {
-        y = innerHeight - 36;
-    }
-    var circle = new Circle(x, y, dx, dy, 30, r, g, b);
+
+    var circle = new Circle(x, y, dx, dy, radius, r, g, b);
 
     circles.push(circle);
 }

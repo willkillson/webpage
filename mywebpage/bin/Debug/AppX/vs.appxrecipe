@@ -38,7 +38,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\willk\Source\Repos\webpage\mywebpage\index.html">
       <PackagePath>index.html</PackagePath>
-      <Modified>2018-03-30T00:44:22.144</Modified>
+      <Modified>2018-03-30T00:49:40.363</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\willk\Source\Repos\webpage\mywebpage\images\LockScreenLogo.scale-200.png">
       <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
@@ -76,7 +76,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\willk\Source\Repos\webpage\mywebpage\js\main.js">
       <PackagePath>js\main.js</PackagePath>
-      <Modified>2018-03-30T00:45:03.500</Modified>
+      <Modified>2018-03-30T01:32:15.850</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\willk\Source\Repos\webpage\mywebpage\css\default.css">
       <PackagePath>css\default.css</PackagePath>

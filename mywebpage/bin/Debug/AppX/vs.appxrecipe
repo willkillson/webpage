@@ -32,7 +32,7 @@
     <AppXManifest Include="C:\Users\willk\Source\Repos\webpage\mywebpage\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-30T00:45:04.895</Modified>
+      <Modified>2018-04-02T22:48:58.662</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -74,9 +74,13 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-03-30T00:44:22.143</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\willk\Source\Repos\webpage\mywebpage\js\circle.js">
+      <PackagePath>js\circle.js</PackagePath>
+      <Modified>2018-04-02T22:49:42.012</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\willk\Source\Repos\webpage\mywebpage\js\main.js">
       <PackagePath>js\main.js</PackagePath>
-      <Modified>2018-03-30T07:26:28.142</Modified>
+      <Modified>2018-04-02T23:54:14.903</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\willk\Source\Repos\webpage\mywebpage\css\default.css">
       <PackagePath>css\default.css</PackagePath>
@@ -85,7 +89,7 @@
     <AppxPackagedFile Include="C:\Users\willk\Source\Repos\webpage\mywebpage\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-30T00:45:04.784</Modified>
+      <Modified>2018-04-02T22:48:58.526</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
